@@ -33,7 +33,7 @@ freopen("paintbarn.out","w",stdout);
             arr[i][j]+=arr[i-1][j];
     }
     for(int i=0;i<1002;i++)
-        for(int j=0;j<1002;j++)
+        for(int j=1;j<1002;j++)
             arr[i][j]+=arr[i][j-1];
 
     /*for(int i=0;i<10;i++)
