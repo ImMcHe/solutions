@@ -4,14 +4,12 @@ using namespace std;
 #define int long long
 #define pii pair<int,int>
 
-const int MV=1E4;
+const int MV=1E5;
 int dp[MV],n,k;
 int arr[MV];
 
 signed main()
 {
-    freopen("teamwork.in","r",stdin);
-freopen("teamwork.out","w",stdout);
 
     cin>>n>>k;
     for(int i=0;i<n;i++)
